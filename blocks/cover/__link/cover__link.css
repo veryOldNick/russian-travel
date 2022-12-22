@@ -1,0 +1,32 @@
+.cover__link {
+  background-image: url(../../../images/railroad__background.png);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  max-width: 1184px;
+  min-height: 740px;
+  width: 100%;
+  color: white;
+  text-decoration: none;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.cover__link::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: #2A2C2F;
+  opacity: .3;
+  transition: opacity .5s ease;
+}
+
+.cover__link:hover::before {
+  opacity: 0.8;
+  background: #2A2C2F;
+}

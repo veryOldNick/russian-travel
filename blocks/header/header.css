@@ -1,0 +1,16 @@
+/*1280*/
+.header {
+  max-width: 1184px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 92.5%;
+  padding-top: 28px;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 767px) {
+  .header {
+      padding-top: 16px;
+  }
+}
