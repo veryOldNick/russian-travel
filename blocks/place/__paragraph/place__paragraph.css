@@ -22,8 +22,4 @@
   .place__paragraph {
     padding: 0 16px;
   }
-
-  .place__paragraph:last-child {
-    margin-bottom: 50px;
-  }
 }
