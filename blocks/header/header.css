@@ -1,10 +1,9 @@
-/*1280*/
 .header {
   max-width: 1184px;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: calc(100% - 2*48px);
+  width: 100%;
   padding-top: 28px;
   margin: 0 auto;
 }
@@ -15,14 +14,15 @@
   }
 }
 
-@media screen and (min-width: 768px) and (max-width: 1023px) {
+@media screen and (max-width: 768px) {
   .header {
-    width: calc(100% - 2*24px);
+    max-width: 720px;
   }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 600px) {
   .header {
-    width: calc(100% - 2*16px);
+      max-width: 288px;
+      padding-top: 16px;
   }
 }
