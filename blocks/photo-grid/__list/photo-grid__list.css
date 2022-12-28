@@ -3,7 +3,9 @@
   padding: 0;
   display: grid;
   grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: auto-fit;
   grid-gap: 16px;
+  grid-row-gap: 12px;
   justify-content: center;
   list-style-type: none;
   max-width: 1184px;
@@ -20,7 +22,9 @@
 @media screen and (max-width: 768px) {
   .photo-grid__list {
       grid-template-columns: repeat(2, 1fr);
-      grid-gap: 12px;
+      grid-template-rows: auto-fit;
+      grid-column-gap: 14px;
+      grid-row-gap: 12px;
       max-width: 720px;
   }
 }
@@ -28,7 +32,7 @@
 @media screen and (max-width: 600px) {
   .photo-grid__list {
       grid-template-columns: 1fr;
-      grid-gap: 9px;
+      grid-gap: 8.8px;
       max-width: 288px;
     }
 }
